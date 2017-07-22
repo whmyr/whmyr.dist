@@ -1,0 +1,26 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.txt">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    10 {
+        templateName.stdWrap.cObject {
+            pagets__distribution_example = TEXT
+            pagets__distribution_example.value = Example
+        }
+    }
+    includeCSSLibs {
+        googlewebfont >
+    }
+    includeCSS {
+        theme = EXT:distribution/Resources/Public/Css/theme.min.css
+    }
+    includeJSFooter {
+        distribution_scripts = EXT:distribution/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}

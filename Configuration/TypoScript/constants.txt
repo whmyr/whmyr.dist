@@ -1,0 +1,58 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.txt">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:distribution/Resources/Public/Images/logo.svg
+        fileInverted = EXT:distribution/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = Distribution
+        linktitle = Distribution
+    }
+    favicon {
+        file = EXT:distribution/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:distribution/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:distribution/Resources/Private/Partials/Page/
+        templateRootPath = EXT:distribution/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:distribution/Resources/Private/Layouts/
+        partialRootPath = EXT:distribution/Resources/Private/Partials/
+        templateRootPath = EXT:distribution/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:distribution/Resources/Private/Layouts/
+        partialRootPath = EXT:distribution/Resources/Private/Partials/
+        templateRootPath = EXT:distribution/Resources/Private/Templates/
+    }
+}
+
+
+#######################################
+### REMOVE BOOTSTRAP LESS CONSTANTS ###
+#######################################
+plugin.bootstrap_package.settings.less >
+plugin.bootstrap_package.settings.overrideLessVariables >

@@ -1,0 +1,44 @@
+#############
+#### RTE ####
+#############
+RTE {
+    config {
+        tt_content {
+            bodytext {
+                types {
+                    text {
+                        preset = distribution
+                    }
+                    textcolumn {
+                        preset = distribution
+                    }
+                    texticon {
+                        preset = distribution
+                    }
+                    textmedia {
+                        preset = distribution
+                    }
+                    textpic {
+                        preset = distribution
+                    }
+                    textteaser {
+                        preset = distribution
+                    }
+                    panel {
+                        preset = distribution
+                    }
+                }
+            }
+        }
+        tx_bootstrappackage_accordion_item {
+            bodytext {
+                preset = distribution
+            }
+        }
+        tx_bootstrappackage_tab_item {
+            bodytext {
+                preset = distribution
+            }
+        }
+    }
+}
