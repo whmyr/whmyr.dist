@@ -4,7 +4,7 @@
  * Extension Manager/Repository config file for ext "distribution".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Distribution',
+    'title' => 'whmyr TYPO3 Distribution',
     'description' => 'Personal Website Theme',
     'category' => 'templates',
     'constraints' => [
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = [
             'Whmyr\\Distribution\\' => 'Classes'
         ],
     ],
-    'state' => 'stable',
+    'state' => 'beta',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 1,

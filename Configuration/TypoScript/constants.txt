@@ -9,20 +9,20 @@
 ############
 page {
     logo {
-        file = EXT:distribution/Resources/Public/Images/logo.svg
-        fileInverted = EXT:distribution/Resources/Public/Images/logo-inverted.svg
+        file = EXT:whmyr_distribution/Resources/Public/Images/logo.svg
+        fileInverted = EXT:whmyr_distribution/Resources/Public/Images/logo-inverted.svg
         height = 52
         width = 192
         alt = Distribution
         linktitle = Distribution
     }
     favicon {
-        file = EXT:distribution/Resources/Public/Icons/favicon.ico
+        file = EXT:whmyr_distribution/Resources/Public/Icons/favicon.ico
     }
     fluidtemplate {
-        layoutRootPath = EXT:distribution/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:distribution/Resources/Private/Partials/Page/
-        templateRootPath = EXT:distribution/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:whmyr_distribution/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:whmyr_distribution/Resources/Private/Partials/Page/
+        templateRootPath = EXT:whmyr_distribution/Resources/Private/Templates/Page/
     }
 }
 
@@ -32,9 +32,9 @@ page {
 ##################
 plugin.bootstrap_package {
     view {
-        layoutRootPath = EXT:distribution/Resources/Private/Layouts/
-        partialRootPath = EXT:distribution/Resources/Private/Partials/
-        templateRootPath = EXT:distribution/Resources/Private/Templates/
+        layoutRootPath = EXT:whmyr_distribution/Resources/Private/Layouts/
+        partialRootPath = EXT:whmyr_distribution/Resources/Private/Partials/
+        templateRootPath = EXT:whmyr_distribution/Resources/Private/Templates/
     }
 }
 
@@ -44,9 +44,9 @@ plugin.bootstrap_package {
 ########################
 plugin.bootstrap_package_contentelements {
     view {
-        layoutRootPath = EXT:distribution/Resources/Private/Layouts/
-        partialRootPath = EXT:distribution/Resources/Private/Partials/
-        templateRootPath = EXT:distribution/Resources/Private/Templates/
+        layoutRootPath = EXT:whmyr_distribution/Resources/Private/Layouts/
+        partialRootPath = EXT:whmyr_distribution/Resources/Private/Partials/
+        templateRootPath = EXT:whmyr_distribution/Resources/Private/Templates/
     }
 }
 

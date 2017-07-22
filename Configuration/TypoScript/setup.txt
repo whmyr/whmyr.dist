@@ -18,9 +18,9 @@ page {
         googlewebfont >
     }
     includeCSS {
-        theme = EXT:distribution/Resources/Public/Css/theme.min.css
+        theme = EXT:whmyr_distribution/Resources/Public/Css/theme.min.css
     }
     includeJSFooter {
-        distribution_scripts = EXT:distribution/Resources/Public/JavaScript/Dist/scripts.js
+        distribution_scripts = EXT:whmyr_distribution/Resources/Public/JavaScript/Dist/scripts.js
     }
 }

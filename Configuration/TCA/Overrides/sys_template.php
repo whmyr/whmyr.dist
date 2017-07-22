@@ -6,7 +6,7 @@ call_user_func(function()
     /**
      * Temporary variables
      */
-    $extensionKey = 'distribution';
+    $extensionKey = 'whmyr_distribution';
 
     /**
      * Default TypoScript for Distribution
@@ -14,6 +14,6 @@ call_user_func(function()
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,
         'Configuration/TypoScript',
-        'Distribution'
+        'whmyr Distribution Theme'
     );
 });

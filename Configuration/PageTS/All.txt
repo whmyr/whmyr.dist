@@ -1,7 +1,7 @@
 #
 # PageTS for Distribution
 #
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:distribution/Configuration/PageTS/RTE.txt">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:distribution/Configuration/PageTS/TCEFORM.txt">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:distribution/Configuration/PageTS/TCEMAIN.txt">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:distribution/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:whmyr_distribution/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:whmyr_distribution/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:whmyr_distribution/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:whmyr_distribution/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">
