@@ -11,7 +11,8 @@
         "typo3/cms-rte-ckeditor": "^8.7.0",
         "bk2k/bootstrap-package": "^8.0.0",
         "typo3-ter/blog": "^8.7",
-        "typo3-ter/realurl": "^2.2.0"
+        "typo3-ter/realurl": "^2.2.0",
+        "typo3-ter/blog-template": "^1.2.0"
     },
     "replace": {
         "whmyr_distribution": "self.version"

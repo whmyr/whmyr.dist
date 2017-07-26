@@ -2,7 +2,7 @@
 #### DEPENDENCIES ####
 ######################
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.txt">
-
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:blog/Configuration/TypoScript/Static/constants.txt">
 
 ############
 ### PAGE ###
@@ -56,3 +56,6 @@ plugin.bootstrap_package_contentelements {
 #######################################
 plugin.bootstrap_package.settings.less >
 plugin.bootstrap_package.settings.overrideLessVariables >
+
+page.theme.copyright.text = Running with <a href="http://www.typo3.org" target="_blank">TYPO3</a>.<br> Made with <span class="glyphicon glyphicon-heart"></span> by Willi Wehmeier
+page.theme.language.enable = 0

@@ -7102,10 +7102,8 @@ h4 + h5 {
 @media (min-width: 768px) {
   .text-column {
     -webkit-column-count: 2;
-    -moz-column-count: 2;
     column-count: 2;
     -webkit-column-gap: 40px;
-    -moz-column-gap: 40px;
     column-gap: 40px;
   }
 }
@@ -9293,4 +9291,19 @@ a.pswp__share--download:hover {
 }
 .pswp--minimal--dark .pswp__top-bar {
   background: none;
+}
+.body-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
